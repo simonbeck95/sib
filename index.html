@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="font-family: 'Source Sans Pro', sans-serif;">
 
 <head>
     <meta charset="utf-8">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="font-family: Lato, sans-serif;">
+<body style="font-family: 'Source Sans Pro', sans-serif;">
     <div>
         <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background-color: #ecf0f1;padding: 0px;">
             <div class="container"><a class="navbar-brand" href="#" style="background-image: url(&quot;assets/img/Logo_SIB_Final.png&quot;);padding: 0px;"><img src="assets/img/Logo_SIB_Final.png" style="width: 100px;"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -27,8 +28,10 @@
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav mr-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="zimmer.html">Zimmer</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="standorte.html">Standorte</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Objekte&nbsp;</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="poststrasse_1.html">Poststraße 1</a><a class="dropdown-item" role="presentation" href="poststrasse_1.html">Kölnstraße 111</a><a class="dropdown-item" role="presentation" href="poststrasse_1.html">Kölnstraße 113 - 115</a></div>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="standorte.html">Infos</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Kontakt</a></li>
                     </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" href="#" style="font-weight: bold;font-style: normal;background-color: #488ccb;">Bewerben</a></span></div>
     </div>
@@ -37,29 +40,29 @@
     <div class="article-list">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center" style="font-family: Lato, sans-serif;">Studentenbuden</h2>
+                <h2 class="text-center">Studentenbuden</h2>
                 <p class="text-center" style="font-size: 19px;font-weight: normal;font-family: Lato, sans-serif;">Wo möchtest du wohnen?</p>
             </div>
             <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img src="assets/img/bruehl.jpg" style="width: 350px;"></a>
-                    <h3 class="name">Kaiserstraße - Brühl</h3>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img src="assets/img/poststrasse_1/IMG_3464.jpg" style="width: 350px;"></a>
+                    <h3 class="name">Poststraße 1 - 50321 Brühl</h3>
                     <p class="description" style="font-family: Lato, sans-serif;">Wohnung direkt neben der EUFH? Kein Problem! Hier kannst du Unileben und Freizeit perfekt kombinieren</p>
                 </div>
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img src="assets/img/poststrasse.jpg" style="width: 350px;"></a>
-                    <h3 class="name">Poststraße - Köln</h3>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img src="assets/img/koelnstrasse_111/IMG_3434.jpg" style="width: 350px;"></a>
+                    <h3 class="name">Kölnstraße 111 - 50321 Brühl</h3>
                     <p class="description">Moderne Zimmer in Top Lage!</p><a href="#" class="action"></a></div>
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img src="assets/img/glessen.jpg" style="width: 350px;"></a>
-                    <h3 class="name">Giethgasse - Glessen</h3>
-                    <p class="description">Na hier wohnt schon jemand...</p><a href="#" class="action"></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img src="assets/img/koelnstrasse_113/IMG_3428.jpg" style="width: 350px;"></a>
+                    <h3 class="name">Kölnstraße 113-115 - 50321 Brühl</h3>
+                    <p class="description">Modenre Zimmer in Top Lage!</p><a href="#" class="action"></a></div>
             </div>
         </div>
     </div>
     <div class="highlight-blue" style="background-color: #488ccb;">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center" style="font-weight: bold;">Schnell in die Studentenbude?</h2>
+                <h2 class="text-center" style="font-weight: bold;">Schnell in die Studentenbude!</h2>
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="#">Bewirb dich jetzt&nbsp;<i class="fa fa-rocket"></i></a></div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="#">Bewirb dich jetzt&nbsp;<i class="fa fa-rocket" style="font-weight: normal;font-style: normal;"></i></a></div>
         </div>
     </div>
     <div class="features-clean">
